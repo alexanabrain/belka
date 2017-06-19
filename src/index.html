@@ -1,29 +1,170 @@
 <!DOCTYPE html>
-<html lang="ru" class="no-js">
+<html lang="en">
 <head>
-  @@include('_include/page-head.html')
-  <title>Document</title>
+	<meta charset="UTF-8">
+	<title>Belka</title>
 </head>
 <body>
-  <!-- Это включение в разметку SVG-спрайта и пример его использования -->
-  <!-- @@include('img/sprite-svg.svg') -->
-  <!-- <svg width="24" height="24"><use xlink:href="#loupe"></use></svg> -->
-  <!-- <svg width="24" height="24"><use xlink:href="#rgb"></use></svg> -->
-  <!-- <svg width="24" height="24"><use xlink:href="#tea-cup"></use></svg> -->
+	<header class="page-header">
+		<div class="page-header__contacts">
+			<div class="container">
+				<div class="page-header__main-contacts contacts">
+					<div class="contacts__time">24 часа</div>
+					<div class="contacts__phone"><a href="tel:+78129997788" class="page-header__phone">8 (812) 999-77-88</a></div>
+					<div class="contacts__address">Выборгское ш. 220</div>
+				</div>
+			</div>
+		</div>
 
+		<div class="page-header__container">
+			<a href="#" class="page-header__logo logo">
+				<p class="logo__item">B</p>
+				<p class="logo__item">e</p>
+				<p class="logo__item">l</p>
+				<p class="logo__item">K</p>
+				<p class="logo__item">a</p>
+			</a>
 
-  <!-- Это примеры использования растрового спрайта -->
-  <!--
-  <div class="chrome"></div>
-  <div class="github-logo"></div>
-  <div class="kraken"></div>
-  <div class="male-and-female"></div>
-  <div class="musica-searcher"></div>
-  <div class="placeholder"></div>
-  -->
+			<button class="btn"></button>
 
-  <h1>Header</h1>
-  <p>text</p>
-
+			<nav class="page-header__nav main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item--active">
+						<a href="#" class="main-nav__link">Трассы</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#" class="main-nav__link">Акции</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#" class="main-nav__link">Цены</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#" class="main-nav__link">Отзывы</a>
+					</li>
+					<li class="main-nav__item">
+						<a href="#" class="main-nav__link">Контакты</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="climbing">
+			<div class="climbing__container">
+				<h1 class="climbing__title">Скалодром</h1>
+				<p class="climbing__text">Заберись на вершину, не уезжая в горы! Скалодром BELKA для всех, кто желает впервые попробовать себя в скалолазании, а также для спортсменов разного уровня. Включает в себя 2 детские трассы и 3 взрослые. Скалолазы смогут найти подробную схему всех поготовленных трасс, посмотреть категорию сложности.</p>
+			</div>
+		</div>
+	</header>
+	<main>
+		<section class="trace">
+			<h2 class="trace__title--white">Трассы</h1>
+			<div class="trace__item">
+				<div class="trace__item--header">
+					<h3 class="trace__item trace__item--title">Трасса # </h3>
+					<p class="trace__item trace__item--subtitle"></p>
+					<p class="trace__item trace__item--subtitle"></p>
+				</div>
+				<img src="" alt="" class="trace__item--image">
+				<div class="trace__item--footer">
+					<p class="trace__item trace__item--text"></p>
+				</div>
+			</div>
+			<div class="trace__item">
+				<div class="trace__item--header">
+					<h3 class="trace__item trace__item--title">Трасса # </h3>
+					<p class="trace__item trace__item--subtitle"></p>
+					<p class="trace__item trace__item--subtitle"></p>
+				</div>
+				<img src="" alt="" class="trace__item--image">
+				<div class="trace__item--footer">
+					<p class="trace__item trace__item--text"></p>
+				</div>
+			</div>
+			<div class="trace__item">
+				<div class="trace__item--header">
+					<h3 class="trace__item trace__item--title">Трасса # </h3>
+					<p class="trace__item trace__item--subtitle"></p>
+					<p class="trace__item trace__item--subtitle"></p>
+				</div>
+				<img src="" alt="" class="trace__item--image">
+				<div class="trace__item--footer">
+					<p class="trace__item trace__item--text"></p>
+				</div>
+			</div>
+			<div class="trace__item">
+				<div class="trace__item--header">
+					<h3 class="trace__item trace__item--title">Трасса # </h3>
+					<p class="trace__item trace__item--subtitle"></p>
+					<p class="trace__item trace__item--subtitle"></p>
+				</div>
+				<img src="" alt="" class="trace__item--image">
+				<div class="trace__item--footer">
+					<p class="trace__item trace__item--text"></p>
+				</div>
+			</div>
+			<div class="trace__item">
+				<div class="trace__item--header">
+					<h3 class="trace__item trace__item--title">Трасса # </h3>
+					<p class="trace__item trace__item--subtitle"></p>
+					<p class="trace__item trace__item--subtitle"></p>
+				</div>
+				<img src="" alt="" class="trace__item--image">
+				<div class="trace__item--footer">
+					<p class="trace__item trace__item--text"></p>
+				</div>
+			</div>
+		</section>
+		<section class="stock">
+			<div class="container">
+				<h2 class="stock__title">Акции</h2>
+				<div class="stock__item col-4">
+					<a href="#" class="stock__item stock__item--link">
+						<img src="" alt="" class="stock__item stock__item--image">
+						<p class="stock__item stock__item--text"></p>
+					</a>
+				</div>
+				<div class="stock__item col-4">
+					<a href="#" class="stock__item stock__item--link">
+						<img src="" alt="" class="stock__item stock__item--image">
+						<p class="stock__item stock__item--text"></p>
+					</a>
+				</div>
+				<div class="stock__item col-4">
+					<a href="#" class="stock__item stock__item--link">
+						<img src="" alt="" class="stock__item stock__item--image">
+						<p class="stock__item stock__item--text"></p>
+					</a>
+				</div>
+			</div>
+		</section>
+		<section class="about">
+			<div class="container">
+				<h2 class="about__title"></h2>
+				<div class="about__item col-4">
+					<p class="about__item--text"></p>
+				</div>
+				<div class="about__item col-4">
+					<p class="about__item--text"></p>
+				</div>
+				<div class="about__item col-4">
+					<p class="about__item--text"></p>
+				</div>
+			</div>
+		</section>
+		<section class="foto">
+			<container>
+				<div class="foto__item col-4">
+					<img src="" alt="" class="foto__item--image">
+				</div>
+				<div class="foto__item col-4">
+					<img src="" alt="" class="foto__item--image">
+				</div>
+				<div class="foto__item col-4">
+					<img src="" alt="" class="foto__item--image">
+				</div>
+			</container>
+		</section>
+		.backing>section.praice
+	</main>
+	<footer></footer>
 </body>
 </html>
